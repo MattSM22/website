@@ -66,18 +66,18 @@ const technologieData: TecnologieType[] = [
 
 const Technologie = () => {
   return (
-    <div className="container__title" id="Technologie">
+    <div className="container__tecnologie__title">
       <h2>Tecnologias</h2>
       <section className="container__technologie">
         <main className="container__technologie__content">
-          {technologieData.map(({index, iconTec, technologie}) => {
+          {technologieData.map(({ index, iconTec, technologie }) => {
             return (
               <figure key={index} className="figure__technologie">
-                <img src={iconTec} alt={technologie} width={100} height={100}/>
+                <img src={iconTec} alt={technologie} width={100} height={100} />
                 <label key={index}>{technologie}</label>
-              </figure> 
+              </figure>
             );
-          })}       
+          })}
         </main>
       </section>
     </div>

@@ -29,7 +29,6 @@ a {
 }
 
 .container {
-  height: 100vh;
   width: 100%;
 
   display: grid;
@@ -48,7 +47,6 @@ a {
 
 .container__content {
   overflow-y: scroll;
-  height: 100vh;
   width: auto;
 
   display: flex;
