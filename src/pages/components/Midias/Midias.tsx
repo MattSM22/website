@@ -10,20 +10,13 @@ const MidiaData: Midia[] = [
   },
   {
     index: 2,
-    nameMidia: "Gmail",
-    iconMidia: "https://cdn-icons-png.flaticon.com/512/281/281769.png",
-    nameUser: "matheusmagalhaes816@gmail.com",
-    link: "",
-  },
-  {
-    index: 3,
     nameMidia: "Instagram",
     iconMidia: "https://cdn-icons-png.flaticon.com/512/174/174855.png",
     nameUser: "@mathh.mag",
     link: "https://www.instagram.com/mathh.mag/"
   },
   {
-    index: 4,
+    index: 3,
     nameMidia: "Github",
     iconMidia: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
     nameUser: "MattSM22",

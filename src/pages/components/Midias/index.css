@@ -65,3 +65,15 @@
   border: 2px solid var(--background);
   transition: all 1s ease;
 }
+
+@media (min-width: 1024px) {
+  .container__midias__data {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .container__midias__data__content {
+    width: 30%;
+    margin-left: 1rem;
+  }
+}
