@@ -9,22 +9,38 @@ const Sidebar = () => {
     <nav className="navbar" id="navbar">
       <h2>Matt Dev</h2>
       <ul className="navbar__list">
-        <article className="navbar__list-row">
-          <HomeRoundedIcon className="navbar__list__listItem-icon" />
-          <a href="#Home"><li className="navbar__list__listItem">Home</li></a>
-        </article>
-        <article className="navbar__list-row">
-          <InfoRoundedIcon className="navbar__list__listItem-icon" />
-          <a href="#About"><li className="navbar__list__listItem">Sobre mim</li></a>
-        </article>
-        <article className="navbar__list-row">
-          <ComputerRoundedIcon className="navbar__list__listItem-icon" />
-          <a href="#Technologie"><li className="navbar__list__listItem">Tecnologias</li></a>
-        </article>
-        <article className="navbar__list-row">
-          <ShareRoundedIcon className="navbar__list__listItem-icon" />
-          <a href="#Midias"><li className="navbar__list__listItem">Redes sociais</li></a>
-        </article>
+        <li className="navbar__list__listItem">
+          <a href="#Home">
+            <div className="row">
+              <i className="bi bi-house-door-fill" style={{ color: "#CBE4DE", fontSize: "22px" }}></i>
+              <span>Home</span>
+            </div>
+          </a>
+        </li>
+        <li className="navbar__list__listItem">
+          <a href="#About">
+            <div className="row">
+              <i className="bi bi-file-person-fill" style={{ color: "#CBE4DE", fontSize: "22px" }}></i>
+              <span>Sobre mim</span>
+            </div>
+          </a>
+        </li>
+        <li className="navbar__list__listItem">
+          <a href="#Technologie">
+            <div className="row">
+              <i className="bi bi-braces-asterisk" style={{ color: "#CBE4DE", fontSize: "22px" }}></i>
+              <span>Tecnologia</span>
+            </div>
+          </a>
+        </li>
+        <li className="navbar__list__listItem">
+          <a href="#Midias">
+            <div className="row">
+              <i className="bi bi-share-fill" style={{ color: "#CBE4DE", fontSize: "22px" }}></i>
+              <span>Contato</span>
+            </div>
+          </a>
+        </li>
       </ul>
     </nav>
   );

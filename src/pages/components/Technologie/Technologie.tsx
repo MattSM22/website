@@ -66,7 +66,7 @@ const technologieData: TecnologieType[] = [
 
 const Technologie = () => {
   return (
-    <div className="container__tecnologie__title">
+    <div className="container__tecnologie__title" id="Technologie">
       <h2>Tecnologias</h2>
       <section className="container__technologie">
         <main className="container__technologie__content">
