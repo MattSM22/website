@@ -20,8 +20,6 @@
   border: 2px var(--foreground) solid;
   -webkit-box-shadow: -1px -1px 43px 5px var(--foreground); 
   box-shadow: -1px -1px 43px 5px var(--foreground);
-
-  height: 50%;
 }
 
 .container__home h2 {
@@ -36,4 +34,11 @@
 .container__home .container__home__article p {
   color: var(--text);
   padding: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .container__home .container__home__figure img {
+    width: 75%;
+    height: 75%;
+  }
 }

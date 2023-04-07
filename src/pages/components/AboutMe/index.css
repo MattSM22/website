@@ -44,8 +44,8 @@
 }
 
 .container__about__academy__banner {
-  height: 300px;
-  width: 300px;
+  height: 18.75rem;
+  width: 18.75rem;
   margin: 1rem;
 
   background-color: var(--background);
@@ -90,5 +90,11 @@
 
   .container__about__academy {
     overflow-y: hidden;
+  }
+}
+
+@media (max-width: 1024) {
+  .container__about__text {
+    width: 40.625rem;
   }
 }
